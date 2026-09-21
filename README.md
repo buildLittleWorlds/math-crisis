@@ -1,4 +1,24 @@
-# Math Crisis
+# AI, over coffee
+
+A friendly, illustrated publication about AI for curious friends and family. The first story explores the September 2026 mathematics controversy.
+
+## Website
+
+The website is plain HTML and CSS in `docs/`, published with GitHub Pages from `main` → `/docs`. No package installation, build system, account, or JavaScript is needed to read it.
+
+- Homepage: `docs/index.html`
+- First article: `docs/stories/when-ai-solves-math/index.html`
+- Shared design: `docs/assets/styles.css`
+
+To preview locally from the repository root:
+
+```sh
+python3 -m http.server 8765 --directory docs
+```
+
+Open `http://localhost:8765/`. To publish another story, add a new folder under `docs/stories/` with an `index.html`, use the existing article as the structure, and add its link on the homepage. Update the title, description, canonical URL, dates, illustration, and source links. Push to `main` to publish through the configured Pages source.
+
+## Research dossier
 
 Research on the September 2026 debate about AI, mathematical discovery, human understanding, and the future of mathematical communities.
 
